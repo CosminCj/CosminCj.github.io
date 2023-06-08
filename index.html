@@ -621,7 +621,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
   <script type="text/javascript">
     var typed = new Typed('.typing',{
       strings: ["a Student", "an Engineer", "a Coder"],
@@ -631,6 +634,13 @@
     });
   </script>
 
+  <script>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        interval: 3000 // Change slide every 3 seconds
+      });
+    });
+  </script>
 
 
   <!-- Template Main JS File -->

@@ -1131,3 +1131,21 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active.carousel-item-left,
+.carousel-fade .carousel-item.active.carousel-item-right {
+  opacity: 0;
+}
