@@ -1134,7 +1134,7 @@ section .container {
 
 .carousel-fade .carousel-item {
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 3s;
 }
 
 .carousel-fade .carousel-item.active,
